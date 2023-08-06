@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 public class Party {
     @Id
-    private ObjectId id;
+    private String id;
     private String title;
     private String address;
 }
